@@ -1,0 +1,48 @@
+@import 'variables';
+
+header{
+
+}
+.header{
+  &__wrap{
+    padding: 35px;
+  }
+  &__body{
+    background-color: $bg-color2;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__logo{
+    padding: 24px 0 32px 33px;
+    width: 33%;
+  }
+  &__nav{
+    padding: 19px 27px 28px 0;
+  }
+}
+
+.logo{
+  img{
+    width: 100%;
+    object-fit: contain;
+  }
+}
+
+.nav{
+  font-size: 36px;
+  text-transform: uppercase;
+  ul{
+    text-align: right;
+  }
+  &__item{
+    padding-bottom: 5px;
+    a{
+      color: $font-color3;
+    }
+  }
+  &__active{
+    a{
+      color: $font-color4;
+    }
+  }
+}
