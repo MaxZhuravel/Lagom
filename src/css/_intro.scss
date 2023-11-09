@@ -2,6 +2,12 @@
 
 .intro{
   margin-bottom: 74px;
+  &__img{
+    img{
+      width: 100%;
+      object-fit: contain;
+    }
+  }
   &__main{
     padding: 0 70px;
     display: flex;
@@ -9,7 +15,9 @@
     align-items: center;
   }
   &__block{
+
     &-wrap{
+      border-radius: 5px;
       width: 475px;
       display: flex;
       background: linear-gradient(90deg, #414141 -2.95%, rgba(45, 45, 45, 0.00) 103.37%);
@@ -30,6 +38,11 @@
     padding: 31px;
     background-color: $bg-color2;
     width: 484px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: normal;
     a{
       color: $font-color4;
     }

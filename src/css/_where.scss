@@ -1,0 +1,66 @@
+@import 'variables';
+
+.where{
+  margin: 0 93px 111px;
+  font-size: 32px;
+  &__wrap{
+    display: grid;
+    grid-template-columns: 26.5% 52.65% 15.97%;
+    column-gap: 2.44%;
+  }
+  &__title{
+    font-size: 64px;
+    font-weight: 700;
+    grid-column: 1/4;
+    margin-bottom: 60px;
+    text-transform: uppercase;
+  }
+  &__address-block{
+    background: linear-gradient(128deg, #615590 6.43%, #534A73 109.03%);
+    margin: 40px 54px 40px 0;
+    padding: 27px 0 39px 23px;
+  }
+  &__address-title{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  &__tel-block{
+    background: linear-gradient(200deg, #534A73 0.03%, #443F58 108.99%);
+    grid-row: 3/4;
+    margin: 0 0 38px 116px;
+    padding: 39px 0 34px 28px;
+  }
+  &__tel-title{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  &__map{
+    grid-row: 2/4;
+    background: $bg-color2;
+  }
+  &__schedule-block{
+    grid-row: 2/4;
+    border-radius: 5px;
+    background: linear-gradient(165deg, #60548F 0%, #46405C 91.45%);
+    padding: 26px 26px 73px 35px;
+    margin: 37px 0 37px 13px;
+  }
+  &__schedule-title{
+    font-size: 40px;
+    margin-bottom: 40px;
+  }
+  &__schedule{
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 40px;
+  }
+  &__time{
+    width: 140px;
+  }
+  &__day{
+    width: 56px;
+  }
+}

@@ -1,0 +1,41 @@
+@import 'variables';
+
+.direction{
+  width: 84%;
+  margin: 0 auto 174px;
+  &__wrap{
+    display: flex;
+    justify-content: space-between;
+  }
+  &__item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 24%;
+    gap: 15px;
+  }
+  &__title{
+    text-transform: uppercase;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: normal;
+  }
+  &__img{
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    background-color: $bg-color2;
+  }
+  &__desc{
+    font-size: 24px;
+    color: $font-color2;
+    text-align: center;
+  }
+  &__link{
+    font-size: 28px;
+    a{
+      color: #FFF;
+      text-transform: lowercase;
+    }
+  }
+}

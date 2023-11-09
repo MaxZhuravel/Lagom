@@ -1,0 +1,40 @@
+@import 'variables';
+
+.view{
+  position: relative;
+  width: 89%;
+  margin: 0 auto;
+  margin-bottom: 74px;
+  &__body{
+    width: 909px;
+    background-color: $bg-color2;
+    margin: 0 auto;
+    padding: 15px 0 15px 82px;
+    display: flex;
+    gap: 20px;
+  }
+  &__icon{
+    padding-top: 8px;
+  }
+  &__text{
+    font-size: 40px;
+    text-transform: uppercase;
+    line-height: normal;
+    &_1{
+      font-size: 48px;
+      position: relative;
+      left: -20px;
+    }
+    &_2{
+      color: $font-color5;
+    }
+  }
+  &__line{
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    border: $bg-color2 solid 5px;
+    width: 100%;
+  }
+}
+

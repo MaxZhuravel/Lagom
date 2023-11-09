@@ -2,10 +2,16 @@
 @import 'variables';
 @import 'header';
 @import 'intro';
+@import 'view';
+@import 'direction';
+@import 'service';
+@import 'where';
+@import 'footer';
 
 body {
   font-family: $font-family;
   font-weight: 600;
   color: $font-color1;
   background-color: $bg-color1;
+  line-height: normal;
 }
